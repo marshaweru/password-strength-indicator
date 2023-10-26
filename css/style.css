@@ -33,5 +33,29 @@
 
 /*CSS properties for button*/
 button{
-    
+    border: 0;
+    border-radius: 5px;
+    position: absolute;
+    background: transparent;
+    top: 50%;
+    outline: none;
+    cursor: pointer;
+    transform: translateY(-50%);
+    right: 15px;
+}
+/*Change the size of the icon*/
+button img{
+    width: 35px;
+}
+/*CSS properties for  message id*/
+#message{
+    color: #fff;
+    position: absolute;
+    font-size: 15px;
+    display: none;
+    bottom: -30px;
+}
+/*increase size of placeholder*/
+::placeholder{
+    font-size: 15px;
 }
